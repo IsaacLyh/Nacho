@@ -1,0 +1,195 @@
+nachos 5.0j initializing... config interrupt timer processor console user-check grader
+-x
+write10.coff
+*** thread 0 looped 0 times
+*** thread 1 looped 0 times
+*** thread 0 looped 1 times
+*** thread 1 looped 1 times
+*** thread 0 looped 2 times
+*** thread 1 looped 2 times
+*** thread 0 looped 3 times
+*** thread 1 looped 3 times
+*** thread 0 looped 4 times
+*** thread 1 looped 4 times
+in KThread.selfTest
+finish test in KThread
+creating write.out...
+...passed (fd = 2)
+writing 59 bytes to file, 59 bytes at a time...
+...passed (wrote 59 bytes)
+closing 2...
+opening write.out...
+...passed (fd = 3)
+reading write.out into buffer...
+...success
+validating write.out...
+...passed
+closing 3...
+creating write.out...
+...passed (fd = 4)
+writing 59 bytes to file, 8 bytes at a time...
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 8 bytes)
+...passed (wrote 3 bytes)
+closing 4...
+opening write.out...
+...passed (fd = 5)
+reading write.out into buffer...
+...success
+validating write.out...
+...passed
+closing 5...
+creating write.out...
+...passed (fd = 6)
+writing 59 bytes to file, 1 bytes at a time...
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+...passed (wrote 1 bytes)
+closing 6...
+opening write.out...
+...passed (fd = 7)
+reading write.out into buffer...
+...success
+validating write.out...
+...passed
+closing 7...
+creating binary.out...
+...passed (fd = 8)
+writing 4096 bytes to file, 4096 bytes at a time...
+...passed (wrote 4096 bytes)
+closing 8...
+opening binary.out...
+...passed (fd = 9)
+reading binary.out into buffer...
+...success
+validating binary.out...
+...passed
+closing 9...
+creating binary.out...
+...passed (fd = 10)
+writing 4096 bytes to file, 128 bytes at a time...
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+...passed (wrote 128 bytes)
+closing 10...
+opening binary.out...
+...passed (fd = 11)
+reading binary.out into buffer...
+...success
+validating binary.out...
+...passed
+closing 11...
+writing to an invalid fd (-10)...
+...passed (r = -1)
+writing to an invalid fd (256)...
+...passed (r = -1)
+writing to an unopened fd (8)...
+...passed (r = -1)
+creating bad.out...
+...passed (fd = 12)
+writing count = 0 bytes...
+...passed
+writing with an invalid buffer (should not crash, only return an error)...
+...passed (r = -1)
+writing with an invalid count (should not crash, only return an error)...
+...passed (r = -1)
+writing with a buffer that extends beyond the end of the
+address space.  write should return an error.
+...passed (r = -1)
+Machine halting!
+
+Ticks: total 970942, kernel 750640, user 220302
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 4420
+Paging: page faults 0, TLB misses 0
+Network I/O: received 0, sent 0
